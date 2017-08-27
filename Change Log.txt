@@ -1,0 +1,6 @@
+8/14/17
+First entry. I have created a basic homepage using html and css. 
+I now have a basic understanding of ordered and unordered lists and divisions.
+8/27/17
+Started comitting edits to mathurkr.github.io. This will publish my site through
+Github.
