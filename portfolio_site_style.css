@@ -1,6 +1,6 @@
 body{
 	font-family:Trebuchet MS;
-	background-color:#F5F5F5;
+	background-color: #F5F5F5;
 	/*background-color:cyan*/
 	
 }
@@ -14,14 +14,19 @@ h1{
 	text-align:center;
 }
 h2{
-	color:green;
+	color:aquamarine;
 	font-size:2em;
+	text-align:center
 }
 div{
 	background-color:aquamarine;
 	border-radius:15px;
 	box-shadow: 5px 5px 5px #888888;
 	width:500px;
+	text-align:center;
+}
+li{
+	text-align:center;
 }
 .centerImage{
 	text-align:center;
