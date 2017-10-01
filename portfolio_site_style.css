@@ -3,9 +3,8 @@ body{
 <<<<<<< HEAD
 	background-color: #F5F5F5;
 	/*background-color:cyan*/
-=======
+
 	background-color:cyan;
->>>>>>> parent of 8f537e6... grey alternative
 	
 }
 h1{
@@ -27,11 +26,9 @@ div{
 	border-radius:15px;
 	box-shadow: 5px 5px 5px #888888;
 	width:500px;
-	text-align:center;
+	
 }
-li{
-	text-align:center;
-}
+
 .centerImage{
 	text-align:center;
 	display:block;
