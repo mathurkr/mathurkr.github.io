@@ -2,15 +2,15 @@ body{
 	font-family:Trebuchet MS;
 	background-color:cyan;
 	
-	text-align:center;
+	/*text-align:center;*/
 }
 h1{
 	color:blue;
 	font-size:3em;
 }
-#special{
+.special{
 	color: aquamarine;
-	font-size:3em;
+	font-size:4em;
 }
 h2{
 	color:green;
