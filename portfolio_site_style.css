@@ -18,7 +18,7 @@ h1{
 	text-align:center;
 }
 h2{
-	color:aquamarine;
+	color:green;
 	font-size:2em;
 	text-align:center
 }
@@ -27,6 +27,8 @@ div{
 	border-radius:15px;
 	box-shadow: 5px 5px 5px #888888;
 	width:500px;
+	padding:20px;
+	margin:auto;
 	
 }
 
