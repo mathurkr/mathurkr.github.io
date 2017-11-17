@@ -26,7 +26,7 @@ h1{
 	padding: 8px;
 	box-shadow: none;
 	height:20px;
-	
+	border-width:5px;
 	border-bottom-color:green;
 	border-top-color:green;
 }
