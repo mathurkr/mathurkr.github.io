@@ -26,6 +26,9 @@ h1{
 	padding: 8px;
 	box-shadow: none;
 	height:20px;
+	
+	border-bottom-color:green;
+	border-top-color:green;
 }
 h2{
 	color:green;
