@@ -21,6 +21,10 @@ h1{
 .title{
 	color:#458B74;
 }
+.topnav{
+	background-color: rgba(0,0,0,0);
+	padding: 2em;
+}
 h2{
 	color:green;
 	font-size:2em;
