@@ -23,7 +23,9 @@ h1{
 }
 .topnav{
 	background-color: rgba(0,0,0,0);
-	padding: 2em;
+	padding: 8px;
+	box-shadow: none;
+	height:50px
 }
 h2{
 	color:green;
