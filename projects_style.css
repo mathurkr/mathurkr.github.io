@@ -48,3 +48,6 @@ div{
 	text-align:center;
 	display:block;
 }
+a{
+	target="_blank";
+}
