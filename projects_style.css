@@ -1,7 +1,7 @@
 body{
 	font-family:Trebuchet MS;
 
-	background-color: #F5F5F5;
+	
 
 	/*background-color:cyan*/
 	text-align:center;
@@ -45,7 +45,7 @@ h2{
 	font-size:2em;
 	text-align:center
 }
-div{
+.maindiv{
 	background-color:aquamarine;
 	border-radius:15px;
 	box-shadow: 5px 5px 5px #888888;
@@ -53,6 +53,10 @@ div{
 	padding:10px;
 	margin:auto;
 	
+}
+.bgdiv{
+	background-color: #F5F5F5;
+	opacity:0.5;
 }
 
 .centerImage{
