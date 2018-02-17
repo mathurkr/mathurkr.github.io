@@ -67,6 +67,11 @@ h2{
 	margin:auto;
 	
 }
+.bgdiv{
+	background-color: #F5F5F5;
+	opacity:0.5;
+}
+
 
 .centerImage{
 	text-align:center;
