@@ -1,8 +1,8 @@
 /*portfolio_site_style.css*/
 body{
 	font-family:Trebuchet MS;
-	height:100%;
-	background-color: #F5F5F5;
+	
+	
 	/*background-color:cyan*/
 	text-align:center;
 	background-image: url('http://preview.ibb.co/cmeoan/IMG_9253.jpg');
@@ -18,7 +18,7 @@ body{
 }
 h1{
 	color:green;
-	font-size:3em;
+	font-size:4em;
 }
 .parallax {
     /* The image used */
