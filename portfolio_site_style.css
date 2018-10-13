@@ -63,7 +63,7 @@ footer{
 	border-right-color:rgba(0,0,0,0);
 }
 
-}
+
 .maindiv{
 	background-color:#A4EBFD;
 	border-radius:15px;
@@ -89,7 +89,7 @@ footer{
 }
 @media (max-width:575.98px){
 	#my_desc{
-		margin:autio;
+		margin:auto;
 		width:75%;
 	}
 }
