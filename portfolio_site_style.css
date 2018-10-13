@@ -23,7 +23,9 @@ h1{
 h2{
 	color:green;
 	font-size:2em;
-	text-align:center
+	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
 }
 footer{
 	background-color: #6996A2;
