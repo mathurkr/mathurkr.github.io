@@ -5,7 +5,7 @@ body{
 	
 	/*background-color:cyan*/
 	text-align:center;
-	background-image: url('http://preview.ibb.co/cmeoan/IMG_9253.jpg');
+	/* background-image: url('http://preview.ibb.co/cmeoan/IMG_9253.jpg'); */
 
     /* Full height */
     height: 100%; 
@@ -17,19 +17,26 @@ body{
     background-size: cover;
 }
 h1{
-	color:green;
+	
 	font-size:4em; /*sizing*/
 }
 h2{
-	color:green;
+	color:#6CBA99;
 	font-size:2em;
 	text-align:center;
 	margin-left:auto; 
 	margin-right:auto;
 }
 footer{
-	background-color: #6996A2;
+	background-color: #6CBA99;
 	color: white;
+}
+p{
+	font-size:1.5em;
+}
+strong{
+	font-weight:bold;
+	color:#76CCA8;
 }
 .parallax {
     /* The image used */
@@ -50,7 +57,7 @@ footer{
 	text-align:center;
 }
 .title{
-	color:#458B74;
+	color:#6CBA99;
 }
 .topnav{
 	background-color: rgba(0,0,0,0);
@@ -87,7 +94,7 @@ footer{
 }
 #my_desc{
 	margin:auto;
-	width:50%;
+	width:45%;
 }
 @media (max-width:575.98px){
 	#my_desc{
