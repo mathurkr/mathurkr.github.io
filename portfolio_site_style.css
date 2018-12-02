@@ -4,7 +4,7 @@ body{
 	
 	
 	/*background-color:cyan*/
-	text-align:center;
+	/* text-align:center; */
 	/* background-image: url('http://preview.ibb.co/cmeoan/IMG_9253.jpg'); */
 
     /* Full height */
@@ -31,12 +31,14 @@ footer{
 	background-color: #6CBA99;
 	color: white;
 }
-p{
-	font-size:1.5em;
-}
+
 strong{
 	
 	color:#76CCA8;
+}
+
+.myCenter{
+	text-align:center;
 }
 .parallax {
     /* The image used */
@@ -92,13 +94,21 @@ strong{
 	text-align:center;
 	display:block;
 }
+
 #my_desc{
 	margin:auto;
 	width:45%;
+	font-size:1.5em;
+
 }
+.smallText{
+	font-size:0.8em;
+}
+
 @media (max-width:575.98px){
 	#my_desc{
 		margin:auto;
 		width:75%;
+		font-size:1.5em;
 	}
 }
