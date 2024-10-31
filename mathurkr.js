@@ -1,4 +1,3 @@
-const myNameHead = document.getElementById("myName");
-myNameHead.addEventListener("mouseover",(e)=>{
-    myNameHead.innerHTML("कबि माथुर");
+document.getElementById("myName").addEventListener("mouseover",(e)=>{
+    document.getElementById("myName").innerHTML("कबि माथुर");
 });
