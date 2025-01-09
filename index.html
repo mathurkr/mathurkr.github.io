@@ -34,7 +34,7 @@
 
 
 			<div class="row align-items-center mb-3">
-				<div class="col-sm-8 col-lg-8 themed-grid-col myCenter">
+				<div class="col-sm-8 col-lg-8 myCenter">
 					<br/>
 					<div >
 						<p style="text-align:center"><span id="age"></span> y/o | He/Him/His | Irvine, CA</p>
@@ -60,13 +60,28 @@
 					<a target="_blank" href="https://github.com/mathurkr/mathurkr.github.io" aria-label="View the Github repository for this site">here!</a>
 
 				</div>
-				<div class="col-sm-4 col-lg-4 themed-grid-col">
+				<div class="col-sm-4 col-lg-4 ">
 					<img class="img-fluid"  src="images/kavi-profile.jpg" alt="Profile Picture"/>
 				</div>
 			</div>
 
 			<div class="row align-items-center mb-3">
-				<object type="application/pdf" data="assets/Mathur_resume_Sept_2024_project.pdf" width="1000" height="1000"></object>
+				<div class="accordion" id="resume-accordion">
+					<div class="accordion-item">
+						<h2 class="accordion-header" id="headingOne">
+							<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+							  Current Resume
+							</button>
+						  </h2>
+						  <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#resume-accordion">
+							<div class="accordion-body">
+								<object type="application/pdf" data="assets/Mathur_resume_Sept_2024_project.pdf" width="100%" height="1000"></object>
+							</div>
+						  </div>
+					</div>
+					
+				</div>
+				
 
 			</div>
 
