@@ -11,30 +11,37 @@ body{
     height: 100%; 
 
     /* Create the parallax scrolling effect */
-    background-attachment: fixed;
+    /* background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
 }
 h1{
 	
 	font-size:4em; /*sizing*/
 }
 h2{
-	color:#6CBA99;
 	font-size:2em;
+	
+}
+.project-row{
+	padding:20px 0;
+}
+h2.project-titles{
+
+	color:#3B7D65;
 	text-align:center;
 	margin-left:auto; 
 	margin-right:auto;
 }
 footer{
-	background-color: #6CBA99;
+	background-color: #3B7D65;
 	color: white;
 }
 
 strong{
 	
-	color:#76CCA8;
+	color:#3B7D65;
 }
 
 .myCenter{
@@ -59,7 +66,7 @@ strong{
 	text-align:center;
 }
 #myName{
-	color:#6CBA99;
+	color:#3B7D65;
 }
 .topnav{
 	background-color: rgba(0,0,0,0);
@@ -95,7 +102,7 @@ strong{
 	display:block;
 }
 
-#my_desc{
+p{
 	margin:auto;
 	/* width:45%; */
 	font-size:1.5em;
