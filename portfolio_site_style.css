@@ -1,6 +1,30 @@
-/*portfolio_site_style.css*/
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); */
+:root {
+	--main-highlight: #3B7D65;
+}
+@media (prefers-color-scheme: dark) {
+		body{
+			color:white;
+			background-color:black!important;
+		}
+		:root{
+			--main-highlight: #64d1a9;
+		}
+		#socials svg{
+			fill:white;
+		}
+		footer{
+			color:black!important;
+		}
+		a.nav-link{
+			color:black!important;
+		}
+
+}
+
+  
 body{
-	font-family:"Trebuchet MS";
+	font-family:"Trebuchet MS",sans-serif;
 	
 	
 	/*background-color:cyan*/
@@ -16,6 +40,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover; */
 }
+p{
+	margin:auto;
+	/* width:45%; */
+	font-size:1.5em;
+
+}
 h1{
 	
 	font-size:4em; /*sizing*/
@@ -24,29 +54,35 @@ h2{
 	font-size:2em;
 	
 }
-.project-row{
-	padding:20px 0;
-}
-h2.project-titles{
-
-	color:#3B7D65;
-	text-align:center;
-	margin-left:auto; 
-	margin-right:auto;
-}
-footer{
-	background-color: #3B7D65;
+.navbar, footer{
+	background-color: var(--main-highlight);
 	color: white;
+}
+a.nav-link{
+	color:white;
 }
 
 strong{
 	
-	color:#3B7D65;
+	color:var(--main-highlight);
 }
 
-.myCenter{
+
+
+/* Homepage styles */
+h2.project-titles{
+
+	color:var(--main-highlight);
 	text-align:center;
+	margin-left:auto; 
+	margin-right:auto;
 }
+/* Project page styles */
+.project-row{
+	padding:20px 0;
+}
+
+
 .parallax {
     /* The image used */
     background-image: url('http://preview.ibb.co/cmeoan/IMG_9253.jpg');
@@ -60,57 +96,24 @@ strong{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.special{
-	color: aquamarine;
-	font-size:4em;
-	text-align:center;
-}
+
 #myName{
-	color:#3B7D65;
-}
-.topnav{
-	background-color: rgba(0,0,0,0);
-	
-	box-shadow: none;
-	padding:15px;
-	border-style:solid;
-	border-width:1px;
-	border-bottom-color:green;
-	border-top-color:green;
-	border-left-color:rgba(0,0,0,0);
-	border-right-color:rgba(0,0,0,0);
+	color:var(--main-highlight);
 }
 
 
-.maindiv{
-	background-color:#A4EBFD;
-	border-radius:15px;
-	box-shadow: 5px 5px 5px #888888;
-	width:350px;
-	padding:10px;
-	margin:auto;
-	
-}
-.bgdiv{
-	
-	background: rgba(245,245,245,0.7);
-}
 
 
+
+/* Utilities */
 .centerImage{
 	text-align:center;
 	display:block;
 }
-
-p{
-	margin:auto;
-	/* width:45%; */
-	font-size:1.5em;
-
+.myCenter{
+	text-align:center;
 }
-.smallText{
-	font-size:0.8em;
-}
+
 
 
 /* @media (max-width:575.98px){
