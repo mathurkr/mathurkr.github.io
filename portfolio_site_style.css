@@ -128,9 +128,22 @@ h2.project-titles{
 }
 
 
-
-@media (max-width:769px){
+@media only screen and (min-width:770px){
+	#mobile-resume-link{
+		display:none;
+		text-align:center;
+	}
+}
+@media only screen and (max-width:769px){
 	p{
 		font-size:1.2em;
+	}
+	#mobile-resume-link{
+		display:block;
+		text-align:center;
+
+	}
+	#resume-accordion{
+		display:none;
 	}
 }
