@@ -71,8 +71,10 @@ strong{
 
 } */
 
-
-
+/* Large Components */
+#kavi-footer{
+	padding:20px;
+}
 /* Homepage styles */
 h2.project-titles{
 
