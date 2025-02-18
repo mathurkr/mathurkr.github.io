@@ -76,7 +76,7 @@ strong{
 	padding:20px;
 }
 /* Homepage styles */
-h2.project-titles{
+h3.project-titles{
 
 	color:var(--main-highlight);
 	text-align:center;
@@ -114,6 +114,11 @@ h2.project-titles{
 
 #myName{
 	color:var(--main-highlight);
+}
+
+#projects-heading{
+	color:var(--main-highlight);
+	font-size:3em;
 }
 
 
