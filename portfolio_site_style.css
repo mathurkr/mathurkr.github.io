@@ -43,7 +43,7 @@ body{
 p{
 	margin:auto;
 	/* width:45%; */
-	font-size:1.5em;
+	font-size:1.2em;
 
 }
 h1{
@@ -81,6 +81,11 @@ h3.project-titles{
 	color:var(--main-highlight);
 	text-align:center;
 	margin-left:auto; 
+	margin-right:auto;
+}
+.desktop-max-width{
+	max-width:75%;
+	margin-left:auto;
 	margin-right:auto;
 }
 /* Project page styles */
@@ -140,6 +145,11 @@ h3.project-titles{
 		display:none;
 		text-align:center;
 	}
+	.desktop-content-row{
+		max-width:75%;
+		margin-left:auto;
+		margin-right:auto;
+	}
 }
 @media only screen and (max-width:769px){
 	p{
@@ -152,5 +162,8 @@ h3.project-titles{
 	}
 	#resume-accordion{
 		display:none;
+	}
+	#goldencomm{
+		flex-direction:column-reverse;
 	}
 }
